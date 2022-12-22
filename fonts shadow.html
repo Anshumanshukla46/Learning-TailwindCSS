@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts, shadow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- h1,h2 Fonts-sizes/weights are absolutely same as 
+         tailwindcss want us to customise these things
+    -->
+
+    <div>
+        <!-- font-size font-weight italic/not text-alignment text-color text-decoration hovering:effect on text-decoration -->
+        <h1
+            class="text-5xl font-extrabold non-italic text-center text-stone-600 underline decoration-indigo-600 hover:decoration-wavy">
+            The
+            quick brown fox just
+            over the
+            lazy dog.</h1>
+    </div>
+
+    <!-- border radius can be using rounded-md like terms -->
+
+
+
+    <!-- this is shadow -->
+    <div class="text-center">
+        <!-- color's obacity is controlled using "/" shadow-indigo-900/80 -->
+        <button
+            class="m-14 px-3 py-2 text-md bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:shadow-indigo-900/80">Click
+            Here</button>
+    </div>
+
+</body>
+
+</html>

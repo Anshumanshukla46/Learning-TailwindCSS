@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index + responsive</title>
+    <!-- just in time = JIT compiler ->  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <!-- FEW THINGS TO READ TO START tailwindcss -->
+
+    <!-- here background color intensity is somewhere in (*100) -->
+
+    <!-- each time check wheather padding or any kind of property is present or not.
+    As for example "py-24" is present but "py-25" is not so if changes are not reflected then check in documentation may/may-not be it is present  -->
+
+
+    <!-- here mostly "rem" are used as it is more responsive means even if we change body container css then it will automatically adjust the whole page no need to add anything.
+    
+    1rem = 16px (default font size);
+    only few properties are in tailwind uses "px" but mostly all uses rem -->
+
+
+    <!-- responsive design classes:
+        It is build using "media query" at the backend.
+        'sm' = minimum-width : 640px, apply on more as well
+
+        'md' = minimum-width : 768px, apply on more as well
+        
+        'lg' = minimum-width : 1024px, apply on more as well
+        
+        'xl' = minimum-width : 1280px, apply on more as well
+        
+        '2xl' = minimum-width : 640px, apply on more as well
+    -->
+
+    <h1 class="bg-gray-700 text-white p-2 m-4 h-52 w-74 sm:bg-yellow-700 md:bg-red-800 mg:text-4xl">Hello World</h1>
+
+
+</body>
+
+</html>
